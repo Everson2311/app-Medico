@@ -1,0 +1,19 @@
+
+.logout, a {
+    text-decoration: none;
+    color: #666;
+}
+.logout:hover, a:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    transition: .3s;
+}
+.logout:active, a:active {
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+    transition: .3s;
+}
+
+

@@ -1,0 +1,32 @@
+<ion-app>
+  <ion-header translucent>
+    <ion-toolbar>
+      <ion-title>Hospitais de São Paulo</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content fullscreen>
+    <ion-card>
+        <img class="logu"src="/assets/img/hosp.png" />
+
+      <ion-list>
+        <ion-list-header>
+          Redes de Hospitais
+        </ion-list-header>
+      </ion-list>
+      <ion-card-header>
+        <ion-card-title>
+          <a [routerLink]="['faltas']">
+            <ion-item expand="block">
+              <ion-label>
+                Hospital Santa Catarina
+              </ion-label>         
+            </ion-item>  
+          </a>   
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+  <app-menu></app-menu>
+</ion-app>

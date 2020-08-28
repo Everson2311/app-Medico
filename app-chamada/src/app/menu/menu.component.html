@@ -1,0 +1,34 @@
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons slot="secondary">
+      <ion-button>
+        <a [routerLink]="['/home']">
+          <ion-icon name="home"></ion-icon>
+          <ion-label>Home</ion-label>
+        </a>
+      </ion-button>
+
+      <ion-button>
+        <a [routerLink]="['/turma']">
+            <ion-icon name="people"></ion-icon>
+            <ion-label>Hospitais</ion-label>
+        </a>
+      </ion-button>
+
+      <ion-button>
+        <a [routerLink]="['/']">
+          <ion-icon name="hammer-outline"></ion-icon>
+            <ion-label>Ajustes</ion-label>
+        </a>
+      </ion-button>
+
+
+      <ion-button class="logout">
+        <ion-icon name="power"></ion-icon>
+        <ion-label>Sair</ion-label>
+
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
+
